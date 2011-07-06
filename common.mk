@@ -22,6 +22,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.dexopt-data-only=1 \
     dalvik.vm.dexopt-flags=m=y \
+    dalvik.vm.heapsize=32m \
     ro.additionalmounts=/mnt/nand;/mnt/usb \
     ro.opengles.version=131072 \
     ro.sf.lcd_density=161 \
