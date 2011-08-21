@@ -24,6 +24,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.dexopt-flags=m=y \
     dalvik.vm.heapsize=32m \
     ro.additionalmounts=/mnt/nand;/mnt/usb \
+    ro.vold.switchablepair=/mnt/sdcard,/mnt/nand \
     ro.opengles.version=131072 \
     ro.sf.lcd_density=161 \
     wifi.interface=wlan0 \
