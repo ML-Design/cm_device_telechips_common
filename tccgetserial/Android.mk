@@ -1,4 +1,4 @@
-ifneq ($(filter tcc8803 tcc8902 tcc8902gb,$(TARGET_DEVICE)),)
+ifneq ($(filter tcc8803 tcc8803rt tcc8902 tcc8902gb tcc8902rt,$(TARGET_DEVICE)),)
 
 LOCAL_PATH := $(call my-dir)
 
