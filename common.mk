@@ -26,7 +26,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.additionalmounts=/mnt/nand;/mnt/usb \
     ro.vold.switchablepair=/mnt/sdcard,/mnt/nand \
     ro.opengles.version=131072 \
-    ro.sf.lcd_density=161 \
+    ro.sf.lcd_density=160 \
     wifi.interface=wlan0 \
     wifi.supplicant_scan_interval=45
 
