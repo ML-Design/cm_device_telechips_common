@@ -23,10 +23,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.dexopt-data-only=1 \
     dalvik.vm.dexopt-flags=m=y \
     dalvik.vm.heapsize=32m \
+    qemu.sf.lcd_density=160 \
     ro.additionalmounts=/mnt/nand;/mnt/usb \
     ro.vold.switchablepair=/mnt/sdcard,/mnt/nand \
     ro.opengles.version=131072 \
-    ro.sf.lcd_density=160 \
     wifi.interface=wlan0 \
     wifi.supplicant_scan_interval=45
 
